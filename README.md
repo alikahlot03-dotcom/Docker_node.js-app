@@ -1,22 +1,28 @@
- # Dockerized Node.js Application
+# Dockerized Node.js Application
 
-This project demonstrates how to containerize a Node.js application using Docker.
+Student Name: Ali Alkahlout
 
-## Technologies Used
-- Node.js
-- Express.js
-- Docker
-- GitHub
+## Description
+This project is a simple Node.js application created for the Docker & GitHub Basics assignment.
+The application was first tested without Docker to ensure it runs correctly, then containerized using Docker.
 
-## How to Build the Docker Image
+## Running the application without Docker
 ```bash
+npm install
+npm start
+ 
+## The application will run on: 
+http://localhost:5006 
+
+## Running the application using Docker :
 docker build -t node-app .
-
-
-## How to Run the Docker Container :
 docker run -p 5006:5006 node-app
 
-Access the Application :
-oben your brwoser and copy :  http://localhost:5006 
+## The application will be available at:
+http://localhost:5006 
+
+
+
+
 
 
